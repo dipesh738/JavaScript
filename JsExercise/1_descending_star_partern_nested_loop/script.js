@@ -1,7 +1,7 @@
 let a = ((item) => {
-  for (i = item; i > 0; i--) {
+  for (let i = item; i > 0; i--) {
     let result = "";
-    for (j = 1; j < i; j++) {
+    for (let j = 1; j < i; j++) {
       result = result + "*";
     }
     console.log(result);

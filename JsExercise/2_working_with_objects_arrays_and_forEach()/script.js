@@ -10,8 +10,5 @@ let obj = {
 };
 
 obj.EDUCATION.forEach((item) => {
-  console.log(`Name:${item.school}, Date:${item.DATE}`);
-});
-array.forEach(element => {
-    
+  console.log(`name: ${item.school} , Date:${item.DATE}`);
 });
